@@ -3,6 +3,7 @@ package com.example.yo7a.healthwatcher;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -11,9 +12,12 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.button.MaterialButton;
+
 public class First extends AppCompatActivity {
 
-    public ImageButton Meas;
+    //public ImageButton Meas;
+    public Button Meas;
     public Button acc;
     public EditText ed1, ed2;
     private Toast mainToast;
@@ -45,6 +49,12 @@ public class First extends AppCompatActivity {
             chkRememberMe.setChecked(true);
         }
 
+//        Meas.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+//            }
+//        });
         Meas.setOnClickListener(v -> {
             usrStrlow = ed1.getText().toString();
             passStr = ed2.getText().toString();

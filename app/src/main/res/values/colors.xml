@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryBlue">#3F51B5</color>
     <color name="colorPrimaryDark">#25338e</color>
-    <color name="colorAccent">#FF4081</color>
+<!--    <color name="colorAccent">#FF4081</color>-->
+    <!--    <color name="colorPrimary">#ff597a</color>-->
+    <color name="colorPrimary">#4CAF50</color>
+    <!--    <color name="colorPrimary">#C5EDC7</color>-->
+    <color name="colorPrimaryDark2">#209A26</color>
+
+    <!--    android color green holo dark-->
+    <!--    <color name="colorPrimaryDark">#ff669900</color>-->
+
+    <!--    <color name="colorPrimaryDark">#18931D</color>-->
+    <color name="bluecolorPrimary">#2196F3</color>
+    <color name="bluecolorPrimaryDark">#03A9F4</color>
+    <color name="colorAccent">#F4B400</color>
+    <color name="golden">#d4af37</color>
+
+    <color name="greyPrimary">#DE000000</color>
+    <color name="greySecondary">#8B000000</color>
+    <color name="greyDisabled">#61000000</color>
+    <color name="greyText">#757575</color>
+    <color name="greyish">#F3F3F3</color>
+    <color name="greyBackground">#E0E0E0</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="logo_background">#D13CA4</color>
+    <color name="yellow">#FFEA04</color>
+    <color name="orange">#FF8C00</color>
+    <color name="yellow_light">#FFD700</color>
+    <color name="hot_pink">#FF69B4</color>
+    <color name="red">#F44336</color>
+    <color name="green">#0CA812</color>
+    <color name="green_call_btn">#35D13B</color>
+    <color name="action_color">#36EEF4</color>
+    <color name="very_light_green">#C5EDC7</color>
+    <color name="red_myntra">#ff7171</color>
+    <color name="myntra_pink">#ff3f6c</color>
+    <color name="airbnb_brink_pink">#ff597a</color>
+    <color name="orange_matte">#E6F39839</color>
+    <color name="green_matte_light">#99e265</color>
+    <color name="green_matte">#567242</color>
+    <color name="blue_matte_dark">#426772</color>
+    <color name="very_light_blue">#9AC9ED</color>
+    <color name="very_light_orange">#FFF1D5AC</color>
+    <color name="green_main">#4CAF50</color>
+    <color name="color_leegum_bag">#6fd860</color>
+    <!--    <color name="greyish">#FF5722</color>-->
 </resources>

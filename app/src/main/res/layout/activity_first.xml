@@ -5,7 +5,6 @@
     android:id="@+id/activity_first"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg4"
     android:orientation="vertical"
     android:paddingLeft="16dp"
     android:paddingTop="16dp"
@@ -19,7 +18,7 @@
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        app:srcCompat="@mipmap/logo" />
+        android:src="@drawable/ic_bits_logo" />
 
     <Space
         android:layout_width="match_parent"
@@ -31,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Username"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -61,7 +60,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Password"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -91,30 +90,37 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Remember Me"
-        android:textColor="@color/colorPrimaryDark" />
+        android:textColor="@color/white" />
 
     <Button
         android:id="@+id/newacc"
         android:layout_width="168dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="right"
+        android:layout_gravity="end"
         android:background="@android:color/transparent"
         android:backgroundTint="@android:color/transparent"
         android:text="Create new Account"
-        android:textAlignment="center"
-        android:textColor="@color/colorPrimaryDark" />
+        android:textColor="@color/white" />
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="32dp" />
 
-    <ImageButton
+<!--    <ImageButton-->
+<!--        android:id="@+id/prime"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_marginBottom="40dp"-->
+<!--        android:backgroundTint="@android:color/transparent"-->
+<!--        app:srcCompat="@mipmap/login" />-->
+    <Button
         android:id="@+id/prime"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginBottom="40dp"
-        android:backgroundTint="@android:color/transparent"
-        app:srcCompat="@mipmap/login" />
+        android:background="@android:color/holo_green_dark"
+        android:text="Login" />
 
 
 </LinearLayout>

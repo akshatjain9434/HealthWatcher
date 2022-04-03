@@ -7,6 +7,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Spinner;
@@ -17,11 +18,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
+
 import java.util.regex.Pattern;
 
 public class Login extends AppCompatActivity {
 
-    public ImageButton Log;
+    public Button Log;
     public EditText ed1, ed2, ed3, ed4, ed5, ed6, ed7, ed8;
     private Toast mainToast;
     public Spinner GenderSpin;
